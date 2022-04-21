@@ -1,16 +1,19 @@
-### Hi there 👋
+_________________________________________________________________________________________________________________________________________________________________________
+WINDOWS
 
-<!--
-**tomoyukou/Tomoyukou** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+first you open your spotify then you minimize it and open a shell window (PowerShell)
+with CTRL+C and CTRL+V you copy the link into the shell window and press enter once and wait until it has processed all commands
+*Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1" | Invoke-Expression*
 
-Here are some ideas to get you started:
+when that's done, copy the next link just like before and confirm with enter
+*Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/spicetify/spicetify-marketplace/master/install.ps1" | Invoke-Expression*
+_________________________________________________________________________________________________________________________________________________________________________
+Linux+MacOS
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+first you open your spotify then you minimize it and open shell
+with CTRL+C and CTRL+V you copy the link into the shell window and press enter once and wait until it has processed all commands
+*curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh*
+
+when that's done, copy the next link just like before and confirm with enter
+*curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/install.sh | sh*
+_________________________________________________________________________________________________________________________________________________________________________ 
